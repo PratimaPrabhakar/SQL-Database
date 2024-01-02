@@ -1,9 +1,11 @@
 **Inventory Management Database**
 
 **Overview**
+
 This database is designed for small businesses, particularly for inventory management in a grocery store. It includes tables for suppliers, categories, products, customers, orders, and order details.
 
 **Tables**
+
 •	Suppliers: Stores information about product suppliers.
 
 •	Categories: Categorizes products for better organization.
@@ -17,11 +19,13 @@ This database is designed for small businesses, particularly for inventory manag
 •	OrderDetails: Captures details of products within an order.
 
 **Views**
+
 •	ProductInventory: Provides an overview of product inventory, including product name, category, supplier, and stock quantity.
 
 •	ProductsWithLowStock: Provides easy access to low stock products (stock quantity less than 10)
 
 **How to Use**
+
 •	Execute **Create_Tables.sql** to create the database structure.
 
 •	Customize the database by updating supplier, category, product, customer, and order information.
